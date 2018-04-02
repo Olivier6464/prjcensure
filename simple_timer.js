@@ -1,8 +1,8 @@
 function simpleTimeout(consoleTimer) {
-    console.timeEnd(consoleTimer)
+  console.timeEnd(consoleTimer)
 }
 console.time("twoSecond")
-setTimeout(simpleTimeout, 2000, "twoSecond")
+setTimeout(simpleTimeout, 2000, "twoSecond") //kjhkjhk
 console.time("oneSecond")
 setTimeout(simpleTimeout, 1000, "oneSecond")
 console.time("fiveSecond")
